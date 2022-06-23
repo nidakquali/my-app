@@ -15,7 +15,7 @@ export default class Link extends React.Component {
        <div>
            <a
                className={this.state.class}
-               href={this.props.page || '#'}>
+               href={this.props.pages || '#'}>
                {this.props.page}
            </a>
            {this.state.welcomeMessage}

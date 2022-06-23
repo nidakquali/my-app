@@ -16,6 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:ci": "react-scripts test --reporters ./node_modules/jest-html-reporter", 
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -34,6 +35,21 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "axios": "^0.27.2",
+    "jest": "^28.1.1",
+    "jest-html-reporter": "^3.5.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/react",
+      "@babel/env"
+    ],
+    "plugins": [
+      "@babel/proposal-class-properties",
+      "@babel/plugin-transform-runtime"
     ]
   }
 }

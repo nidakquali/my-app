@@ -1,0 +1,25 @@
+{
+  "Application Name":"React App"
+  "Application Type":"npm"
+  "stages":{
+    "npm-build":{
+      "source-dir":"src",
+      "artifact-dir":"",
+      "sonar":true,
+      "sonar-exclusions":"",
+      "sonar-coverage-exclusions":"",
+      "coverage-report-path":""
+    },
+    "smoke-test":{
+      "framework":"",
+      "test-suite-directory":"",
+      "cucumber-report-path":""
+    },
+    "regression-test":{
+      "browser":"",
+      "Platform":"",
+      "browserVersion":"",
+      "test-report-path":""
+    }
+  }
+}
